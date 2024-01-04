@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.divstyle{
+    /* display: inline-block; */
+    margin: 40px;
+    padding: 5px;
+    height: 300px;
+    width: 300px;
+    background-color:aquamarine ;
+    border: 5px solid blue;
+    border-radius: 15px;
+    box-shadow: 5px 10px 10px skyblue;
+}
+.flx{
+    display: flex;
+    /* display: inline-block; */
+    /* display: block; */
+}

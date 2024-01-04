@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(45deg, skyblue, violet);
+    /* background-image: linear-gradient(180deg, red, yellow); */
+    /* background-color: aqua; */
+    /* border: 2px solid red; */
+    /* color: violet   ; */
+}
+.home{
+    display: flex ;
+    padding-top: 50px;
+    /* padding-left: 300px; */
+    /* display: flex; */
+    justify-content: center;
+    /* place-items: center; */
+    /* align-items: center; */
+    /* background-color: aliceblue; */
+}
+.child{
+    
+    height: 600px;
+    width: 500px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    box-shadow: 10px 10px 15px rgb(18, 43, 16)  ;
+    
+
+}
+.login{
+    padding: 15px;
+    text-align: center;
+}
+.imge{
+    
+    background-image: url("../images/back.png");
+    overflow: hidden;
+    text-align: center;
+    /* div center e ante start */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* div center e ante end */
+    
+}
+.imge p:hover{
+        z-index: -1;
+        opacity: 1;
+        font-size: 30px;
+        transform-style: all;
+        transition-duration: 2s;
+}
+.imge p{
+    opacity: 0.7;
+}
+.imge img{
+    height: 100%;
+    width: 100%;
+
+}
+#txt{
+    
+    display: inline-block;
+    width: 100%; 
+    border: 2px solid rgb(178, 130, 222) ;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size:xx-large;
+    margin-top: 50px;
+    padding-bottom: 20px;
+    margin-bottom: 50px; 
+    
+}
+button{
+    display: inline-block;
+    color: azure;
+    padding: 8px;
+    margin-top: 40px;
+    width: 100%;
+    font-size: larger;
+    border: none;
+    background-color: rgb(178, 130, 222) ;
+    border-radius: 10px;
+}
+button:hover{
+    opacity: 0.8;
+}
+input{
+    display: inline-block;
+    /* padding: 8px; */
+    margin-top: 20px;
+    width: 100%;
+    font-size: large;
+    background-color: aliceblue;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-bottom: 5px;
+}
+.inpt div{
+    padding-bottom: 20px;
+}
+.inpt{
+    text-align: left;
+}

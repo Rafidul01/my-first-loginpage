@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+header{
+    margin: 0;
+    background-image: url(/images/abstact-red-line-banner-overlap-layers-on-black-background-with-free-space-for-your-design-modern-header-vector.jpg);
+}
+.container{
+    margin: 0;
+    background-image: url(/images/istockphoto-1148091793-1024x1024.jpg);
+    background-size: cover;
+}
+.head{
+    text-align: center;
+    text-decoration: underline;
+    color: violet;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+.hcolor{
+    color: blue;
+}
+.alldiv{
+    margin:  15px 100px;
+    padding: 20px 30px;
+    border: 5px solid violet;
+    border-radius: 15px;
+    box-shadow: 10px 10px 15px rgba(106, 1, 106, 0.773);
+}
+.f{
+    background-color: rgb(152, 100, 100);
+}
+.s{
+    background-color: cadetblue;
+}
+.t{
+    background-image: url(../images/cha/green-field-clouds-sky-wind-turbines.jpg);
+    background-size: cover;
+    
+}
+.fo{
+    background-color: lightcoral;
+}
+#img{
+    display: block;
+    height: 50px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
